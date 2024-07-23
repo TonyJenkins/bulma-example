@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>A Bulma Example</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="A Bulma example">
+    <meta name="keywords" content="bulma,css,html,website,front-end,development">
+    <meta name="author" content="Tony Jenkins">
+    <meta name="email" content="tony@tony-jenkins.co.uk">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container is-fluid py-2">
+        <header class="p-4 mb-4">
+            <div class="columns is-align-items-center">
+                <div class="column is-one-third">
+                    <img src="img/2018_LBU01_REV_png.png" alt="Leeds Beckett University logo">
+                </div>
+                <div class="column is-two-thirds has-text-centered">
+                    <h1 class="title is-1">Web Application Technologies</h1>
+                </div>
+            </div>
+        </header>
+
+        <main data-theme="light">
+            <div class="columns">
+                <div class="column is-one-fifth has-text-centered">
+                    <h1 class="title is-2">Menu</h1>
+                    <p>
+                        This column (which could maybe contain a menu), is set to 20% of the page width. It just contains some
+                        examples of Bulma buttons.
+                    </p>
+                    <button class="button my-2">A Default Button</button>
+                    <button class="button is-primary my-2">A Primary Button</button>
+                    <button class="button is-info my-2">An Info Button</button>
+                    <button class="button is-warning my-2">A Warning Button</button>
+                    <button class="button is-danger my-2">A Danger Button</button>
+                    <p>
+                        There are also variations on the standard buttons.
+                    </p>
+                    <button class="button is-primary is-outlined is-inverted my-2">A Primary Button</button>
+                    <button class="button is-primary is-dark my-2">A Primary Button</button><br>
+                    <button class="button is-primary is-small my-2">A Primary Button</button>
+                </div>
+                <div class="column is-three-fifths">
+                    <h1 class="title is-1">About Bulma</h1>
+                    <p>
+
+                        Bulma is a modern CSS framework based on Flexbox.
+                        It is a free and open source project that provides a simple and easy way to create
+                        responsive web interfaces.
+                    </p>
+                    <p>
+                        Bulma supports light and dark themes, but for simplicity, this example forces the light theme for the main content, and
+                        will override any user preference.
+                    </p>
+                    <p>
+                        This is the main content area of the page. It uses 60% of the page width.
+                    </p>
+                    <h2 class="title is-3 pt-4">Bulma Elements</h2>
+                    <p>
+                        Below are some examples of Bulma elements.
+                    </p>
+                    <div class="box">
+                        This is a box. A very simple way to emphasise some content.
+                    </div>
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">A Card</p>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                This is a card. A simple way to display some content, with a header and maybe an image.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="message is-info">
+                        <div class="message-header">
+                            <p>Info</p>
+                            <button class="delete"></button>
+                        </div>
+                        <div class="message-body">
+                            This is a message. It can be used to display information to the user.
+                        </div>
+                    </div>
+                    <p>
+                        And here is a form. It uses the Bulma form elements. The icons are from <a href="https://fontawesome.com">Font Awesome</a>.
+                    </p>
+                    <form>
+                        <div class="field">
+                            <label class="label">Name:</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="text" placeholder="Enter your name">
+                                <span class="icon is-small is-left is-color-primary">
+                                    <i class="fa-solid fa-user"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Email:</label>
+                            <div class="control has-icons-left">
+                                <input class="input" type="email" placeholder="Enter your email">
+                                <span class="icon is-small is-left is-color-primary">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="column is-one-fifth">
+                    <h1 class="title is-2">Sidebar</h1>
+                    <p>
+                        This possibly useful sidebar column is set to 20% of the page width.
+                    </p>
+                    <p class="pb-4">
+                        The fonts used on this page are taken from <a href="https://fonts.google.com">Google Fonts</a>.
+                    </p>
+                    <div class="notification is-info">
+                        This is a notification. It can be used to display information to the user.
+                    </div>
+                    <div class="notification is-info">
+                        <button class="delete"></button>
+                        This is another notification. It can be used to display information to the user. It has a delete option, that could be used with some JavaScript to remove it.
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="mt-4 py-2">
+            <div class="columns py-0">
+                <div class="column">
+                    <p class="is-size-7 has-text-weight-bold has-text-left pl-4">
+                        Built with <a href="https://bulma.io">Bulma</a> and <a href="https://fontawesome.com">Font Awesome</a>.
+                    </p>
+                </div>
+                <div class="column">
+                    <p class="is-size-7 has-text-weight-bold has-text-right pr-4">
+                        Created by Tony Jenkins <a href="https://github.com/TonyJenkins/">
+                        <span class="icon has-text-white"><i class="fa-brands fa-github"></i></span></a>
+                        <a href="https://www.linkedin.com/in/tony-jenkins/">
+                        <span class="icon has-text-white"><i class="fa-brands fa-linkedin"></i></span></a>
+                    </p>
+                </div>
+            </div>
+            <p class="is-size-7 has-text-centered py-0">
+                <i class="fa-solid fa-check-to-slot"></i> Valid HTML5. <i class="fa-solid fa-check-to-slot"></i> Valid CSS3.
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
